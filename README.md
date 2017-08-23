@@ -1,5 +1,16 @@
 ## Collection of scripts
 
+#### octool for Ubuntu 16.04 
+If you are running Ubuntu 16.04 an updated octool is avaible, see ocpkg_1604.
+	
+	wget https://raw.githubusercontent.com/aro-ai-robots/ocpkg/master/ocpkg_1604 -O octool16 && chmod +rx octool16
+	chmod 777 octool16
+	./octool16 -rsdpcalv
+
+
+
+Documentation for Ubuntu 14.04: 
+
 #### ocpkg
 * It is a script to install an OpenCog development environment on a fresh installation of Ubuntu >= 14.04 . It has options to selectively download, build, test, install and package OpenCog projects. Don't use the package option, as it
 is still work in progress.
